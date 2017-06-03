@@ -11,5 +11,9 @@ $('#vibrar').tap(function(){
 navigator.notification.vibrate(1000);
 });//tap vibrar
 
+$('#vibrar2').tap(function(){
+navigator.notification.vibrate(1000);
+});//tap vibrar
+
 	},false); //deviceready
 }); //ready
